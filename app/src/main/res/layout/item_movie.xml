@@ -1,0 +1,31 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- ImageView for Movie Poster -->
+    <ImageView
+        android:id="@+id/posterImageView"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop" />
+
+    <!-- TextView for Movie Title -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- TextView for Movie Overview -->
+    <TextView
+        android:id="@+id/overviewTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textSize="14sp" />
+</LinearLayout>
